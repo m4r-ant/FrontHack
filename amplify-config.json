@@ -1,0 +1,13 @@
+{
+  "name": "AlertaUTEC",
+  "description": "Sistema de Reporte de Incidentes UTEC",
+  "repository": "https://github.com/tu-usuario/alerta-utec",
+  "branch": "main",
+  "appName": "AlertaUTEC",
+  "buildSpec": "amplify.yml",
+  "webhookUrl": "",
+  "environmentVariables": {
+    "NEXT_PUBLIC_WEBSOCKET_URL": "wss://tu-endpoint-aws.execute-api.region.amazonaws.com/dev",
+    "NEXT_PUBLIC_API_URL": "https://tu-api.example.com"
+  }
+}
